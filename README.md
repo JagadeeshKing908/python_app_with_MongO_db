@@ -75,7 +75,7 @@ docker exec -it mongodb
 mongosh -u admin -p 123 --authenticationDatabase admin
 
 3)checks databases are created or not :-
-To check db is created or not ---> show dbs;
-To use the paticular DB --> use userdb;
-To see table is created or not---> show collections;
-To see data ---->db.users.find().pretty()
+   a)To check db is created or not ---> show dbs;
+   b)To use the paticular DB --> use userdb;
+   c)To see table is created or not---> show collections;
+   d)To see data ---->db.users.find().pretty()
