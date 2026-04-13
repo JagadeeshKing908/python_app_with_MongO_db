@@ -58,10 +58,9 @@ To Run app :
 --------------
   
   python3 app.py
-MongoDB Connection
 
-Inside app.py:
---------------
+MongoDB Connection Inside app.py:
+----------------------------------
 MongoClient("mongodb://admin:123@localhost:27017/?authSource=admin")
 
 To validate data is inserted and is working :-
