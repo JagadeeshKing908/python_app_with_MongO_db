@@ -76,6 +76,9 @@ mongosh -u admin -p 123 --authenticationDatabase admin
 
 3)checks databases are created or not :-
    a)To check db is created or not ---> show dbs;
+   
    b)To use the paticular DB --> use userdb;
+   
    c)To see table is created or not---> show collections;
+   
    d)To see data ---->db.users.find().pretty()
